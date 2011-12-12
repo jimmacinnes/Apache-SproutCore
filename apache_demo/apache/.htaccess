@@ -1,0 +1,5 @@
+RewriteEngine On
+
+RewriteRule ^findNearByWeatherJSON(.*)$  http://ws.geonames.org/findNearByWeatherJSON$1 [P]
+
+

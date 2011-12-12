@@ -1,0 +1,10 @@
+<h1>Weather Report</h1>
+
+{{#collection SC.TemplateCollectionView contentBinding="ApacheDemo.feedController"}}
+  <h2>{{content.stationName}}</h2><p>
+  <b>Date:</b> {{content.datetime}}<br>
+  <b>Temperature:</b> {{content.temperature}}<br>
+  <b>Humidity:</b> {{content.humidity}}<br>
+  <b>Weather Condition:</b> {{content.weatherCondition}}<br>
+
+{{/collection}}
